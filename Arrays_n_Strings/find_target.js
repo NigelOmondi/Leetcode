@@ -1,4 +1,10 @@
-// Works with a sorted array
+/* Works with a sorted array
+-----------------------------
+ @param {number []} array arr
+ @param {number} target
+ @return {boolean}
+ */
+
 function findTargetedSum(arr, target) {
     let left = 0;
     let right = arr.length - 1;
