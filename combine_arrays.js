@@ -1,3 +1,9 @@
+/* Works with two sorted arrays
+   @param {number[]} arr1 is array 1
+   @param {number[]} arr2 is arry 2
+   @return {number[]} the combined array
+*/
+
 function combineArrays(arr1, arr2) {
     let combinedArray = [];
 
