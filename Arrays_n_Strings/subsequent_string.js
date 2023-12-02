@@ -1,3 +1,8 @@
+/*
+ @param {string} str1 is the subsequent string
+ @param {string} str2 is the orignal string
+ @return {boolean}
+ */
 function checkSubsequence(str1, str2) {
     let i = j = 0;
 
