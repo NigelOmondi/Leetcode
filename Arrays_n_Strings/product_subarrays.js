@@ -1,3 +1,5 @@
+/* Find the number of subarrays that yield less than target product k */
+
 function numOfSubarrayProductLessThanK(arr, k) {
 
     // return no subarrays if the target k is less than

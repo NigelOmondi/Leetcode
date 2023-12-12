@@ -1,3 +1,5 @@
+# Find the number of subarrays that yield less than target product k
+
 def num_of_subarray_product_less_than_k(arr, k):
     # Return 0 if the target k is less than or equal to 1
     if k <= 1:
