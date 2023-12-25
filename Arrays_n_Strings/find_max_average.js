@@ -1,6 +1,7 @@
 function findMaxAverage(nums, k) {
     // Calculate the sum of the first 'k' elements
     let maxSum = 0;
+    
     for (let i = 0; i < k; i++) {
         maxSum += nums[i];
     }
